@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d9e6f7;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4.5rem;
+    background-color: #4A90E2; /* New main theme color */
+    justify-content: space-around;
+    border: 1px solid #2f6bb5;
+}
+
+.logo{
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #4A90E2; /* Matches theme */
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section, aside{
+    background-color: white;
+}
+
+ul{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav ul li:first-child{
+    font-weight: bold;
+    color: #4A90E2; /* Highlight active item */
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    width: 100%;
+    gap: 1rem;
+}
+
+form input{
+    width: 80%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid #4A90E2;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+form input::placeholder{
+    font-size: 1.5rem;
+}
+
+.table-container h2,
+.description h2,
+.ordered-list h2 {
+    color: #4A90E2;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #b9cff0;
+}
+
+thead{
+    background-color: #4A90E2;
+    color: white;
+}
+
+th{
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #b9cff0;
+}
+
+tbody td{
+    padding: 0.75rem;
+    border: 1px solid #b9cff0;
+}
+
+tfoot{
+    background-color: #d9e6f7;
+}
